@@ -1,0 +1,562 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #040405;
+}
+
+
+
+nav {
+    background: #040405;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+   
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFF;
+
+
+}
+
+.connectButton {
+    color: #000;
+    font-size: 16px;
+    border-radius: 24px;
+    background: #00FF1A;
+    padding: 12px 24px;
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    
+}
+
+.mainBox {
+    background-color: #000;
+}
+
+.mainOne {
+    display: flex;
+    align-items: center;
+    gap: 151px;
+    justify-content: center;
+}
+
+.crvBox {
+    display: flex;
+    flex-direction: column;
+    width: 564px;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.whiteColor {
+    color: #FFF;
+}
+
+.grayColor {
+    color: #7A7A7A;
+}
+
+.blackColor {
+    color: #000;
+}
+
+.welcomeDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.earnP {
+    font-size: 72px;
+}
+
+.depositP {
+    font-size: 20px;
+}
+
+.worksButton {
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+    background-color: #000;
+    padding: 12px 24px;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.spangDiv {
+    width: 325px;
+}
+
+
+.twoBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.twoCont {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    border-top: 1px solid #00FF1A;
+    width: 812px;
+    padding: 24px;
+    margin-left: 300px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.sizeFont {
+    font-size: 32px;
+}
+.fontSize {
+    font-size: 20px;
+}
+
+.threeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+
+}
+.frogBox {
+    color: #FFF;
+}
+
+.frogBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 567px;
+
+}
+.greenBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.boosterP {
+    font-size: 72px;
+}
+
+.depositP {
+    color: #7A7A7A;
+    font-size: 20px;
+}
+
+.rectangle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background: #00FF1A;
+ 
+}
+
+.withdrawalsDiv {
+    display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.rectangleBox {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.withdrawalsP {
+    color: #FFF;
+    font-size: 32px;
+
+}
+
+.boostP {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.fourContainer {
+    width: 1040px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+.processDiv {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.processDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.workDiv {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.fourendBox {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    align-items: center;
+}
+
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 213px;
+}
+
+.svgDiv {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.svgDiv {
+    border-radius: 4px;
+    border: 1px solid #00FF1A;
+    background: rgba(0, 255, 26, 0.10);
+}
+
+.registerBox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.registerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.fourRegister {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 900;
+}
+
+.fiveContainer {
+    display: flex;
+    width: 1040px;
+    align-items: flex-start;
+    gap: 22px;
+    margin: 0 auto;
+}
+
+.oneF {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 0 auto;
+    width: 509px;
+}
+
+.oneF {
+    color: #FFF;
+}
+
+.fiveEnd {
+    display: flex;
+   flex-direction: column;
+}
+
+.deposityour {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.fiveBox {
+    border-left: 2px solid #00FF1A;
+
+}
+
+.fiveBox {
+    display: flex;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.fiveBoxdiv {
+    display: flex;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.fiveBoxdiv {
+    border-left: 2px solid #4A4A4E;
+}
+
+.sixContainer {
+    display: flex;
+    width: 1040px;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.customerService {
+    display: flex;
+    width: 642px;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.serviceDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+.boyDiv {
+    display: flex;
+    align-items: start;
+    width: 104px;
+    height: 328px;
+}
+
+.serviceRight {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    width: 440px;
+    height: 328px;
+}
+
+
+.cameronDiv {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.amazingCustomer {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.pretiumMetus {
+    color: #00FF1A;
+}
+
+.loremIpsum {
+    font-size: 22px;
+}
+
+.nineDiv {
+    display: flex;
+    justify-content: end;
+    width: 440px;
+}
+
+.sixEnd {
+    display: flex;
+    
+    gap: 16px;
+}
+
+.leftEnd {
+    border-radius: 50px;
+    background: #F8F8F8;
+}
+
+.rightEnd {
+    border-radius: 50px;
+    background: #00FF1A;
+}
+
+.mainService {
+    padding: 24px 32px;
+    background: #1C1C20;
+}
+
+
+.formMain {
+    padding: 24px 32px;
+    width: 392px;
+    height: 729px;
+    background: #1C1C20;
+   
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+   
+}
+
+.formDiv {
+    width: 328px;
+    height: 155px;
+
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background-color: #1C1C20;
+    padding: 12px 16px;
+    width: 328px;
+    height: 48px;
+}
+
+textarea {
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background-color: #1C1C20;
+    width: 328px;
+    height: 155px;
+}
+
+.submitType {
+    color: #000;
+    border-radius: 4px;
+    background: #00FF1A;
+}
+
+.safisfactionDiv {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.safisfactionBox {
+    padding: 32px;
+    background: #1C1C20;
+    width: 624px;
+    height: 217px;
+    
+}
+
+.safisfactionBox {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.customerBased {
+    font-size: 24px;
+    font-weight: 900;
+}
+.questionDiv {
+    font-size: 22px;
+}
+
+.numberDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.phoneLogo {
+    border-radius: 50px;
+    background: #00FF1A;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.footerContainer {
+    background-color: #000;
+    margin-top: 215px;
+    border-top: 1px solid #00FF1A;
+}
+
+.footerBox {
+    display: flex;
+    width: 1440px;
+    padding: 40px 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hrefDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+.folowwingDiv {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.svgEnd {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
